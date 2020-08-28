@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get '/test', to: 'api/public#test'
+  get '/test1',  to: 'api/public#test1'
+  get '/test2',  to: 'api/private#test2'
 end
