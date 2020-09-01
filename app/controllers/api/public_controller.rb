@@ -8,4 +8,9 @@ class Api::PublicController < ApplicationController
     redirect_to controller: "TargetGroupsController",
                     action: "get_for_country_code"
   end
+
+  def evaluate_target
+    redirect_to controller: "EvaluateTarget",
+                    action: "evaluate_target"
+  end
 end

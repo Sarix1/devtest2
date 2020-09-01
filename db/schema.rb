@@ -37,6 +37,13 @@ ActiveRecord::Schema.define(version: 2020_08_27_191522) do
     t.index ["panel_provider_id"], name: "index_location_groups_on_panel_provider_id"
   end
 
+  create_table "location_groups_locations", id: false, force: :cascade do |t|
+    t.integer "location_id"
+    t.integer "location_group_id"
+    t.index ["location_group_id"], name: "index_location_groups_locations_on_location_group_id"
+    t.index ["location_id"], name: "index_location_groups_locations_on_location_id"
+  end
+
   create_table "locations", force: :cascade do |t|
     t.string "name"
     t.integer "external_id"

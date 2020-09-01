@@ -1,11 +1,99 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
+_1:
+  name: Lahti
   external_id: 1
   secret_code: MyString
 
-two:
-  name: MyString
-  external_id: 1
+_2:
+  name: Helsinki
+  external_id: 2
+  secret_code: MyString
+
+_3:
+  name: Tampere
+  external_id: 3
+  secret_code: MyString
+
+_4:
+  name: Turku
+  external_id: 4
+  secret_code: MyString
+
+_5:
+  name: Oulu
+  external_id: 5
+  secret_code: MyString
+
+_6:
+  name: Rovaniemi
+  external_id: 6
+  secret_code: MyString
+
+_7:
+  name: Berlin
+  external_id: 7
+  secret_code: MyString
+
+_8:
+  name: Frankwurst
+  external_id: 8
+  secret_code: MyString
+
+_9:
+  name: Cologne
+  external_id: 9
+  secret_code: MyString
+
+_10:
+  name: Hannover
+  external_id: 10
+  secret_code: MyString
+
+_11:
+  name: Brandenburg
+  external_id: 11
+  secret_code: MyString
+
+_12:
+  name: Munch
+  external_id: 12
+  secret_code: MyString
+
+_13:
+  name: Stuttgart
+  external_id: 13
+  secret_code: MyString
+
+_14:
+  name: Bremen
+  external_id: 14
+  secret_code: MyString
+
+_15:
+  name: Wroclav
+  external_id: 15
+  secret_code: MyString
+
+_16:
+  name: Warsaw
+  external_id: 16
+  secret_code: MyString
+
+_17:
+  name: Krakow
+  external_id: 17
+  secret_code: MyString
+
+_18:
+  name: Katowice
+  external_id: 18
+  secret_code: MyString
+
+_19:
+  name: Poznan
+  external_id: 19
+  secret_code: MyString
+
+_20:
+  name: Gdansk
+  external_id: 20
   secret_code: MyString

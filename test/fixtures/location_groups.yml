@@ -1,11 +1,23 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  name: MyString
-  country: one
-  panel_provider: one
+  id: 1
+  name: WesternPolishLocations
+  country: 2
+  panel_provider: 2
 
 two:
-  name: MyString
-  country: two
-  panel_provider: two
+  id: 2
+  name: EasternPolishLocations
+  country: 2
+  panel_provider: 4
+
+three:
+  id: 3
+  name: FinnishLocations
+  country: 1
+  panel_provider: 1
+
+four:
+  id: 4
+  name: GermanLocations
+  country: 3
+  panel_provider: 3

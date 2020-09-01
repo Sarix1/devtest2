@@ -1,9 +1,14 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  country_code: MyString
-  panel_provider: one
+  id: 1
+  country_code: FI
+  panel_provider: 1
 
 two:
-  country_code: MyString
-  panel_provider: two
+  id: 2
+  country_code: PL
+  panel_provider: 2
+
+three:
+  id: 3
+  country_code: DE
+  panel_provider: 3

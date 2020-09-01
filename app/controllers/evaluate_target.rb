@@ -1,5 +1,5 @@
-def evaluate_target
-  if params_valid(input)
+class LocationsController < ApplicationController
+  def evaluate_target
     country = Country.find_by country_code: params[:country_code]
     price = get_price(country.panel_provider_id)
 
@@ -9,7 +9,7 @@ def evaluate_target
     input = nil
 
     render json: {data: "No data"}
-  end
+   end
 
   private
 
@@ -17,4 +17,5 @@ def evaluate_target
       params.require(:country_code, :target_group_id, :locations)
       params.require(:locations).permit(:id, :panel_size)
     end
+  end
 end
