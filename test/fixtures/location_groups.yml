@@ -1,23 +1,23 @@
 one:
   id: 1
   name: WesternPolishLocations
-  country: 2
-  panel_provider: 2
+  country_id: 2
+  panel_provider_id: 2
 
 two:
   id: 2
   name: EasternPolishLocations
-  country: 2
-  panel_provider: 4
+  country_id: 2
+  panel_provider_id: 4
 
 three:
   id: 3
   name: FinnishLocations
-  country: 1
-  panel_provider: 1
+  country_id: 1
+  panel_provider_id: 1
 
 four:
   id: 4
   name: GermanLocations
-  country: 3
-  panel_provider: 3
+  country_id: 3
+  panel_provider_id: 3
