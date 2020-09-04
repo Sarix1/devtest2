@@ -4,6 +4,7 @@ class Location < ApplicationRecord
   def self.for_country_code(country_code)
     joins(location_groups: :country)
       .where(countries: { country_code: country_code })
+      .pluck(:name)
       .to_a
   end
 end
