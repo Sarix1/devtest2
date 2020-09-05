@@ -24,4 +24,4 @@ country_code (e.g. FI)
 target_group_id (a value between 1 and 3)
 locations (an array of hashes: { id: 123, panel_size: 200 })
 
-db_diagram.png - shows a schema diagram for the database structure.
+db_diagram.png - a schema diagram of the database structure
