@@ -4,8 +4,7 @@ require 'json'
 
 class Scraper
   def scrape(url)
-    html = open(url)
-    doc = Nokogiri::HTML(html)
+    Nokogiri::HTML(open(url))
   end
 
   def visible_text(doc)
@@ -13,7 +12,7 @@ class Scraper
     doc.xpath('//style')&.remove
     doc.xpath('//text()').map(&:text).join(' ').squish
 
-    doc
+    doc.text
   end
   
   def count_characters(url, char)

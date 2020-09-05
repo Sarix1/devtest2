@@ -12,26 +12,13 @@ class Api::PublicController < ApplicationController
     panel_provider_id = country.panel_provider_id
 
     if panel_provider_id.in?([1, 2, 3])
-      scraper = Scraper.new
+      calculator = Calculator.new
 
-      if panel_provider_id == 1
-        character_a_count = scraper.count_characters("https://time.com/", "a")
-
-        render json: {data: character_a_count / 100}
-
-      elsif panel_provider_id == 2
-        array_count = scraper.count_arrays("https://openlibrary.org/search.json?q=the+lord+of+the+rings", 10)
-
-        render json: {data: array_count}
-
-      elsif panel_provider_id == 3
-        node_count = scraper.count_html_nodes("https://time.com/")
-
-        render json: {data: node_count / 100}
-      end
+      render json: calculator.calculate(panel_provider_id)
 
     else
-      render json: {data: "Invalid panel provider ID"}   
+      render json: "Invalid panel provider ID"
+
     end
   end
 
