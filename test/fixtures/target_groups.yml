@@ -12,7 +12,7 @@ _1_1:
   external_id: 2
   parent_id: 1
   secret_code: MyString
-  panel_provider_id: 2
+  panel_provider_id: 3
 
 _1_1_1:
   id: 3
@@ -20,7 +20,7 @@ _1_1_1:
   external_id: 3
   parent_id: 2
   secret_code: MyString
-  panel_provider_id: 3
+  panel_provider_id: 2
 
 _1_1_1_1:
   id: 4
@@ -28,7 +28,7 @@ _1_1_1_1:
   external_id: 4
   parent_id: 3
   secret_code: MyString
-  panel_provider_id: 1
+  panel_provider_id: 4
 
 _2:
   id: 5
@@ -36,7 +36,7 @@ _2:
   external_id: 5
   parent_id: NULL
   secret_code: MyString
-  panel_provider_id: 5
+  panel_provider_id: 3
 
 _2_1:
   id: 6
@@ -44,7 +44,7 @@ _2_1:
   external_id: 6
   parent_id: 5
   secret_code: MyString
-  panel_provider_id: 6
+  panel_provider_id: 24
 
 _2_1_1:
   id: 7
@@ -52,7 +52,7 @@ _2_1_1:
   external_id: 7
   parent_id: 6
   secret_code: MyString
-  panel_provider_id: 7
+  panel_provider_id: 1
 
 _2_1_1_1:
   id: 8
@@ -60,7 +60,7 @@ _2_1_1_1:
   external_id: 8
   parent_id: 7
   secret_code: MyString
-  panel_provider_id: 8
+  panel_provider_id: 4
 
 _3:
   id: 9
@@ -68,7 +68,7 @@ _3:
   external_id: 9
   parent_id: NULL
   secret_code: MyString
-  panel_provider_id: 9
+  panel_provider_id: 2
 
 _3_1:
   id: 10
@@ -76,7 +76,7 @@ _3_1:
   external_id: 10
   parent_id: 9
   secret_code: MyString
-  panel_provider_id: 10
+  panel_provider_id: 1
 
 _3_1_1:
   id: 11
@@ -84,7 +84,7 @@ _3_1_1:
   external_id: 11
   parent_id: 10
   secret_code: MyString
-  panel_provider_id: 11
+  panel_provider_id: 4
 
 _3_1_1_1:
   id: 12
@@ -92,7 +92,7 @@ _3_1_1_1:
   external_id: 12
   parent_id: 11
   secret_code: MyString
-  panel_provider_id: 12
+  panel_provider_id: 2
 
 _4:
   id: 13
@@ -100,7 +100,7 @@ _4:
   external_id: 13
   parent_id: NULL
   secret_code: MyString
-  panel_provider_id: 13
+  panel_provider_id: 3
 
 _4_1:
   id: 14
@@ -108,7 +108,7 @@ _4_1:
   external_id: 14
   parent_id: 13
   secret_code: MyString
-  panel_provider_id: 14
+  panel_provider_id: 4
 
 _4_1_1:
   id: 15
@@ -116,7 +116,7 @@ _4_1_1:
   external_id: 15
   parent_id: 14
   secret_code: MyString
-  panel_provider_id: 15
+  panel_provider_id: 2
 
 _4_1_1_1:
   id: 16
@@ -124,4 +124,4 @@ _4_1_1_1:
   external_id: 16
   parent_id: 15
   secret_code: MyString
-  panel_provider_id: 16
+  panel_provider_id: 4
