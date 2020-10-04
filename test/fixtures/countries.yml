@@ -1,0 +1,14 @@
+one:
+  id: 1
+  country_code: FI
+  panel_provider_id: 1
+
+two:
+  id: 2
+  country_code: PL
+  panel_provider_id: 2
+
+three:
+  id: 3
+  country_code: DE
+  panel_provider_id: 3

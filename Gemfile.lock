@@ -140,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  nokogiri
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   sqlite3 (~> 1.4)

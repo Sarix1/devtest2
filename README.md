@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails API designed to specifications described here:
+https://github.com/pbc/devtest
 
-Things you may want to cover:
+Private API requests:
+GET /private/locations/:country_code
+GET /private/target_groups/:country_code
+POST /private/evaluate_target          
 
-* Ruby version
+Public API requests:
+GET /public/locations/:country_code
+GET /public/target_groups/:country_code
 
-* System dependencies
+Basic HTML authorization credentials:
+Username: admin
+Password: pw
 
-* Configuration
+Country codes for test/development DB entries:
+FI, PL, DE
 
-* Database creation
+POST request must contain a JSON hash containing:
+country_code (e.g. FI)
+target_group_id (a value between 1 and 3)
+locations (an array of hashes: { id: 123, panel_size: 200 })
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+db_diagram.png - a schema diagram of the database structure

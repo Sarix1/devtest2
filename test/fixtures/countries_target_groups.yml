@@ -1,0 +1,11 @@
+one:
+  country_id: 1
+  target_group_id: 1
+
+two:
+  country_id: 2
+  target_group_id: 5
+
+three:
+  country_id: 3
+  target_group_id: 13

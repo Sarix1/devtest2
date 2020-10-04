@@ -1,0 +1,11 @@
+one:
+  id: 1
+  code: ProviderCode A
+
+two:
+  id: 2
+  code: ProviderCode B
+
+three:
+  id: 3
+  code: ProviderCode C
